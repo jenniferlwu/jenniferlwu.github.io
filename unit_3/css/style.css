@@ -1,0 +1,22 @@
+body {
+	color: #8C4189;
+}
+
+h1 {
+	color: #458F4A;
+}
+
+#slogan {
+		font-style: italic;	
+}
+
+li {
+	text-align: center;
+}
+
+/*Container holding hero image and header */
+.hero {
+	position: relative;
+	text-align: center;
+	color: black;
+}
