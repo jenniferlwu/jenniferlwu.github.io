@@ -1,0 +1,132 @@
+/*Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto:500&display=swap);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.wrapper {
+	padding: 0px;
+	position: relative;
+}
+
+/*Navigation*/
+nav {
+	background-color: #8DE1F3;
+	margin: 0;
+}
+
+.logo {
+	width: 7%;
+	height: auto;
+	padding: 18px;
+	float: left;
+}
+
+.navlinks a {
+	text-decoration: none;
+	font-family: Montserrat, Arial, sans-serif;
+	text-align: center;
+	color: #000000;
+	padding: 20px;
+	float: right;
+	display: inline- block;
+	height: auto;
+}
+
+
+.navlinks a:hover {
+	background-color: #aaaaaa;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+/*Hero Section*/
+#hero {
+	position: relative;
+	background: url("../images/fitness2.jpg");
+	text-align: center;
+	margin: 0;
+	padding: 5em;
+}
+
+h1 {
+	color: #458F4A;
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 65px;
+}
+
+#slogan {
+		font-family: Open Sans, Arial, sans-serif;
+}
+
+#bio {
+	background: white;
+	font-family: Open Sans, Arial, sans-serif;
+	width: 100%;
+}
+
+/*Articles*/
+
+#body_header {
+	text-align: center;
+	font-family: Montserrat, Arial, sans-serif;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.post_img {
+	max-width:100%;
+    height:auto;
+}
+
+article {
+	background: #E89C6C;
+	float:left;
+	width: 30%;
+	display: inline-block;
+	font-family: Open Sans, Arial, sans-serif;
+}
+
+#post_one, #post_three {
+	float: left;
+	margin: 2% 2% 2% 18%;
+}
+
+#post_three{
+	clear: both;
+}
+
+#post_two, #post_four {
+	float: right;
+	margin: 2% 18% 2% 2%;
+}
+
+.post_name, .post_description {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+/*Footer*/
+
+footer {
+	background: #8DE1F3;
+	height: 3em;
+}
+
+#contact {
+	font-family: Roberto, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 2em;
+	display: block;
+	width: 17em;
+	padding: 8px 8px 8px 50px;
+	color: #000000;
+}
