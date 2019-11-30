@@ -1,0 +1,153 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*whole page*/
+
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+/*Navigation*/
+nav {
+	margin: 1.5em;
+}
+
+.navlinks {
+	float: right;
+	height: auto;
+}
+
+.navlinks a{
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+	padding: 0 2em;
+
+}
+
+
+.navlinks a:hover {
+	text-decoration: underline;
+	text-decoration-color: #aaaaaa;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+/*Hero Section*/
+#hero {
+	position: relative;
+	background-image: url("../images/fitness3.jpg");
+	background-size: cover;	
+	text-align: center;
+	margin: 0;
+	padding: 11em 3em;
+	padding-bottom: 6em;
+}
+
+h1 {
+	color: black;
+	font-size: 70px;
+	margin-top: 1em;
+	margin-bottom: 	0;
+}
+
+#slogan {
+		
+}
+
+#bio {
+	background: transparent;
+	padding-right: 	1em;
+	padding-top: 2em;
+	margin-bottom: 0;
+}
+
+/*Articles*/
+
+#body_header {
+	text-align: center;
+	margin-top: 2.5em;
+	margin-bottom: 1em;
+	font-size: 	2em;
+}
+
+.post_img {
+	max-width:100%;
+    height:auto;
+}
+
+article {
+	background: #F5F3F3;
+	width: 30%;
+	margin: 2% auto 2% auto;
+}
+
+#post_three{
+	clear: both;
+}
+
+.article_description {
+	padding: 1em 2em;
+}
+
+/*Footer*/
+
+footer {
+	height: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 1.25em;
+	margin-top: 6em;
+}
+
+#contact {
+	font-size: 1em;
+	font-color: white;
+	line-height: 1em;
+	display: block;
+	width: 100%;
+	color: #000000;
+	padding-left: 5em;
+}
+
+@media only screen and (max-width: 1024px){
+	article {
+		width: 80%;
+		margin: 10% auto 10% auto;
+	}
+}
+
+@media only screen and (max-width: 425px){
+	#hero{
+		background: #f5d8c1;
+		padding-top: 3em;
+	}
+	h1 {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1174px) {
+	#bio {
+		padding: 2em 5em 0 5em;
+	}
+}
+
+@media only screen and (min-width: 1174px){
+	#bio {
+		padding: 2em 8em 0 8em;
+	}
+}
